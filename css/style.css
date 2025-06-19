@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100Vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+
+.container{
+    max-width: 350px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 20px;
+    background: rgb(255,255,255);
+}
+
+.app-title{
+    position: relative;
+    color: #3cba92;
+    font-size: 2rem;
+}
+.fa-book-bookmark{
+    position: absolute;
+    top: 5px;
+    left: 52%;
+}
+
+.text-dark{
+    font-size: 16px;
+}
+
+
+.input-box{
+    position: absolute;
+}
+
+.btn{
+    position: relative;
+    border: none;
+    left: 75%;
+    background-color: #3cba92;
+}
+.btn:hover{
+    background-color: #3cba92;
+}
